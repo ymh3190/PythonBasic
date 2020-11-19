@@ -20,9 +20,8 @@ with open('C:/Users/Yoo/AppData/Local/Programs/Python/Python38-32/data/info.json
 2) json 읽기
 """
 
-import json
 
-with open('C:/Users/Yoo/AppData/Local/Programs/Python/Python38-32/data/info.json','r') as f:
-    l_info=json.load(f)
+with open('C:/Users/Yoo/AppData/Local/Programs/Python/Python38-32/data/info.json', 'r') as f:
+    l_info = json.load(f)
 print(l_info)
 print(type(l_info))
